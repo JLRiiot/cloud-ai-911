@@ -7,4 +7,4 @@
 - Languages: Fluent in Spanish and English
 - Fun Fact: I love teaching and sharing my knowledge with others!
 
-<img src="media/images/me.jpg" alt="me" style="width:128px;height:128px;display:block;margin:0 auto;">
+<img src="../media/images/me.jpg" alt="me" style="width:128px;height:128px;display:block;margin:0 auto;">
