@@ -13,44 +13,21 @@
 
   <!-- Theme used for syntax highlighted code -->
   <link rel="stylesheet" href="plugin/highlight/monokai.css">
+  <style>
+    .reveal ul {
+      font-size: 0.5em;
+    }
+  </style>
 </head>
 
 <body>
-  <section data-markdown>
-    <textarea data-template>
-			  # Cloud Architect Course
-
-				This repository contains the materials for the Cloud Architect Course. The course is designed to provide a comprehensive understanding of cloud computing, cloud architecture, and various cloud technologies.
-				
-				## Course Structure
-				
-				The course is divided into several modules, each covering a different aspect of cloud computing. Each module includes slides and exercises.
-				
-				- [Module 1: Introduction to Cloud Computing](module-1-introduction-to-cloud-computing)
-				- [Module 2: Cloud Architecture](module-2-cloud-architecture)
-				- [Module 3: Cloud Migration](module-3-cloud-migration)
-				- [Module 4: Networking and Security](module-4-networking-and-security)
-				- [Module 5: Working with Servers and Microservices](module-5-working-with-servers-and-microservices)
-				- [Module 6: Real-Time Data Processing](module-6-real-time-data-processing)
-				- [Module 7: Introduction to AI and Machine Learning](module-7-introduction-to-ai-and-machine-learning)
-				- [Module 8: Real-Time Image Processing](module-8-real-time-image-processing)
-				- [Module 9: IoT and Edge Computing](module-9-iot-and-edge-computing)
-				- [Module 10: Project Management](module-10-project-management)
-				
-				## Getting Started
-				
-				To view the slides, open the `index.html` file in your web browser. The slides are written in Markdown and are converted to HTML using [Reveal.js](https://revealjs.com/).
-				
-				## Contributing
-				
-				Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before getting started.
-				
-				## License
-				
-				This project is licensed under the [MIT License](LICENSE.md).
-				
-			</textarea>
-  </section>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown="course-info/about-me.md" data-auto-animate></section>
+      <section data-markdown="course-info/about-the-course.md" data-auto-animate></section>
+      <section data-markdown="course-info/course-structure.md" data-auto-animate></section>
+    </div>
+  </div>
 
   <script src="dist/reveal.js"></script>
   <script src="plugin/notes/notes.js"></script>
